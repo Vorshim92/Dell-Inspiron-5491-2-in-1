@@ -1,52 +1,67 @@
-# Dell Inspiron 5491 2 in 1
+[![](https://img.shields.io/badge/Gitter%20HL%20Community-Chat-informational?style=flat&logo=gitter&logoColor=white&color=ed1965)](https://gitter.im/Hackintosh-Life-IT/community)
+[![](https://img.shields.io/badge/EFI-Release-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Speeedo83/Dell-Inspiron-5491-2in1-Hakintosh/releases)
+[![](https://img.shields.io/badge/Telegram-HackintoshLifeIT-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLife_it)
+[![](https://img.shields.io/badge/Facebook-HackintoshLifeIT-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9)](https://www.facebook.com/hackintoshlife/)
+[![](https://img.shields.io/badge/Instagram-HackintoshLifeIT-informational?style=flat&logo=instagram&logoColor=white&color=8a178a)](https://www.instagram.com/hackintoshlife.it_official/)
 
-EFI for HP X360 Pavilion 14-dw0004nl Ice Lake with OpenCore bootloader
+# DELL Inspiron 5491 2in1 (Comet Lake) Hackintosh
+
+EFI for Dell Vostro 5491 with OpenCore bootloader
 
 ![descrizione](./Screenshot/pc.jpg)
+
 
 ### Computer Spec:
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
-| CPU              | Intel i5 1035G1 (4C-8T 8MB ICL)   |
-| iGPU             | Intel® UHD RVP         			|
-| Lan              | NO-LAN                       		|
-| Audio            | Realtek ALC287                     |
-| Ram              | 1x8GB DDR4 3200 Mhz SODIMM			|
-| Wifi + Bluetooth | RTL8822CE 802.11ac PciE		    |
-| NVMe             | HYNIX SK PC401 256GB  	   	 	    |
-| SmBios           | MacBookPro 16,2                    |
-| BootLoader       | OpenCore  0.6.4                    |
+| CPU              | Intel i7 10510U (4C-8T 8MB CML)    |
+| iGPU             | Intel® Graphics Graphics UHD       |
+| Audio            | Realtek ALC236                     |
+| Ram              | 8 GB DDR4 2666 Mhz (TEMP)          |
+| Wifi + Bluetooth | Intel AC9276 (BCM94360NG Fenvi incoming)|
+| NVMe             | Toshiba KYOXIA 512 GB (MACOS)         |
+| SmBios           | MacBookPro 16,3                    |
+| BootLoader       | OpenCore 0.6.6                     |
+| macOS            | Big Sur 11.1                       |
 
 ![infobigsur](./Screenshot/infomacbigsur.png)
 
 ### What works and What doesn't or WIP:
 
-- [x] Intel UHD630 iGPU eDP with Backlight Output
-- [ ] Intel UHD630 iGPU HDMI Output (Not supported at the moment)
-- [ ] Intel UHD630 iGPU Type-C to HDMI Output (Not supported at the moment)
-- [ ] ALC287 Internal Speakers
-- [ ] ALC287 Internal microphone
-- [ ] ALC287 Combojack headphones
-- [ ] ALC287 Combojack microphone
-- [ ] ALC287 HDMI Audio Output (Not supported at the moment)
-- [ ] ALC287 TYPE-C to HDMI Audio Output (Not supported at the moment)
+- [x] Intel Graphics UHD iGPU 
+- [x] Intel Graphics UHD iGPU HDMI Output
+- [x] IIntel Graphics UHD iGPU Type-C to HDMI Output
+- [x] ALC236 Internal Speakers
+- [ ] ALC236 Internal microphone
+- [x] USB MINI Dongle Microphones (TEMP)
+- [x] ALC236 Combojack headphones
+- [ ] ALC236 Combojack microphone (FIX INCOMING)
+- [x] ALC236 HDMI Audio Output
+- [x] ALC236 TYPE-C to HDMI Audio Output
 - [x] All USB-A 3.1 Ports (TYPE-C 3.2 Included)
 - [x] SpeedStep / Sleep / Wake
-- [x] HID Key PWRB & SLPB
-- [x] I2C Touchscreen
-- [x] I2C Touchpad with gesture (Partial work)
-- [x] Keyboard with backlight
-- [x] Brightness Key
-- [ ] Wi-Fi and Bluetooth Native (to change w/ BCM943602BAED DW1830)
-- [x] SSD NVME Slot-1 PCIe Gen3x4
-- [x] Micro SD Card Reader (PCIe RTS522A)
+- [x] HID Key PWRB & SLPB 
+- [x] I2C Touch pad with gesture
+- [x] I2C Touch Screen
+- [x] Keyboard (PS2-Internal) with backlight
+- [x] F6 & F7 Brightness Key
+- [x] F10 Print Screen Key
+- [x] F1 & F2 & F3 Sound Key
+- [x] Wi-Fi and Bluetooth BCM94360NG Module
+- [x] Controller SATA III
+- [x] Controller NVME PciE Gen3x4 
+- [x] Micro SD Cardreader (USB-Internal)
 - [x] WebCam (USB-Internal)
+- [x] All Sensors CPU, IGPU, BATTERY, NVME, SATA, FAN
 - [x] ACPI Battery
+- [x] Apple VTD
 - [x] NVRAM (Native)
+- [x] Recovery (macOS) boot from OpenCore
+- [x] Windows 10 boot from OpenCore
 
+## Peripherals & TouchPad Setting & Benchmarks
 
-## Peripherals & Benchmarks
 
 ![infohack](./Screenshot/periferiche.png)
 ![infodp2](./Screenshot/pci-list.png)
