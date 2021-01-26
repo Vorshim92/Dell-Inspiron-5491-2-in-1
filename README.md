@@ -19,7 +19,7 @@ EFI for Dell Vostro 5491 with OpenCore bootloader
 | iGPU             | Intel® Graphics Graphics UHD       |
 | Audio            | Realtek ALC236                     |
 | Ram              | 8 GB DDR4 2666 Mhz (TEMP)          |
-| Wifi + Bluetooth | Intel AC9276 (BCM94360NG Fenvi incoming)|
+| Wifi + Bluetooth | Intel AC9462 (BCM94360NG Fenvi incoming)|
 | NVMe             | Toshiba KYOXIA 512 GB (MACOS)         |
 | SmBios           | MacBookPro 16,3                    |
 | BootLoader       | OpenCore 0.6.6                     |
