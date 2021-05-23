@@ -69,7 +69,7 @@ EFI for Dell Vostro 5491 with OpenCore bootloader
 
 ### PERFORMANCE INTEL POWER GADGET
 
-![GIF](./Screenshot/Intel\ Power\ Gadget\ PERFORMANCE/4Core.gif)
+![GIF](./Screenshot/Intel%20Power%20Gadget%20PERFORMANCE/4Core.gif)
 
 
 
