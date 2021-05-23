@@ -67,6 +67,11 @@ EFI for Dell Vostro 5491 with OpenCore bootloader
 ![infodp2](./Screenshot/pci-list.png)
 ![AUDIO](./Screenshot/AUDIO-ID11notwork.png)
 
+### PERFORMANCE INTEL POWER GADGET
+
+![GIF](./Screenshot/Intel%Power%Gadget%PERFORMANCE/4Core.gif)
+
+
 
 ### Special Config:
 
